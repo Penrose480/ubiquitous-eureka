@@ -4,7 +4,7 @@ AskQueries is a CLI tool.
 
 In AskQueries, the user enters context. Then, you can ask a few questions about the document.
 
-AskQueries is already pre-trained on large datasets of technical documents, scientific papers, etc. This makes AskQueries perefect for quickly extrapolating answers from large documents.
+AskQueries is already pre-trained on large datasets of technical documents, scientific papers, etc. This makes AskQueries perfect for quickly extrapolating answers from large documents.
 
 ## Dependencies
 
