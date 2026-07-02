@@ -7,7 +7,7 @@ ans = pipeline("question-answering")
 summarizer = pipeline("summarization")
 
 context = input("Enter the doc for context: ")
-print("Here is a quick summmary: ", summarizer(context, max_length=170))
+print("Here is a quick summmary: ", summarizer(context, max_length=len(context)//3))
 
 while (True):
     question = input("Ask a question about the doc (q to quit): ")
