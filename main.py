@@ -3,7 +3,7 @@ from transformers import pipeline
 # parse input
 inp = input()  
 
-ans = pipeline("question-answering")
+ans = pipeline("question-answering", model="deepset/roberta-base-squad2")
 
 context = input("Enter the doc for context: ")
 
